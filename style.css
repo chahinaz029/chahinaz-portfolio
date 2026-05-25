@@ -1,34 +1,152 @@
+/* ===== GLOBAL ===== */
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8ff;
+    color: #1e293b;
+    scroll-behavior: smooth;
+}
+
+/* ===== HERO SECTION ===== */
+
+.hero-section {
+    background: linear-gradient(to right, #0f172a, #1e3a8a);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+/* ===== PROFILE IMAGE ===== */
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* ===== TITLES ===== */
+
+h2 {
+    font-weight: bold;
+    color: #2563eb;
+}
+
+/* ===== CARDS ===== */
 
 .card {
-    border-radius: 15px;
+    border: none;
+    border-radius: 18px;
     transition: 0.3s;
+    overflow: hidden;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.15);
 }
 
-.text-primary {
-    color: #2563eb !important;
+.card-body {
+    padding: 25px;
 }
 
-.profile-img {
-    width: 220px;
-    height: 220px;
-    object-fit: cover;
+/* ===== PROJECT TITLES ===== */
+
+.card-title {
+    color: #2563eb;
+    font-weight: bold;
 }
 
-body {
-    background-color: #f4f8ff;
+/* ===== BUTTONS ===== */
+
+.btn-primary {
+    background-color: #2563eb;
+    border: none;
 }
 
-.text-primary {
-    color: #2563eb !important;
+.btn-primary:hover {
+    background-color: #1d4ed8;
 }
 
-.profile-img {
-    width: 220px;
-    height: 220px;
-    object-fit: cover;
+.btn-outline-primary {
+    border-color: #2563eb;
+    color: #2563eb;
+}
+
+.btn-outline-primary:hover {
+    background-color: #2563eb;
+    color: white;
+}
+
+/* ===== SECTIONS ===== */
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* ===== ABOUT SECTION ===== */
+
+#profil {
+    background-color: #eaf2ff;
+}
+
+/* ===== SKILLS SECTION ===== */
+
+#competences {
+    background-color: #f8fbff;
+}
+
+/* ===== PROJECTS SECTION ===== */
+
+#projets {
+    background-color: #eef4ff;
+}
+
+/* ===== CONTACT SECTION ===== */
+
+#contact {
+    background-color: #0f172a;
+    color: white;
+}
+
+#contact h2 {
+    color: white;
+}
+
+/* ===== LINKS ===== */
+
+a {
+    text-decoration: none;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+
+    .hero-section h1 {
+        font-size: 40px;
+    }
+
+    .hero-section p {
+        font-size: 18px;
+    }
+
+    .profile-img {
+        width: 170px;
+        height: 170px;
+    }
+
 }

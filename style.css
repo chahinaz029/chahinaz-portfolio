@@ -1,6 +1,4 @@
-body {
-    background-color: #f5f9ff;
-}
+
 
 .card {
     border-radius: 15px;
@@ -9,6 +7,20 @@ body {
 
 .card:hover {
     transform: translateY(-5px);
+}
+
+.text-primary {
+    color: #2563eb !important;
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+}
+
+body {
+    background-color: #f4f8ff;
 }
 
 .text-primary {

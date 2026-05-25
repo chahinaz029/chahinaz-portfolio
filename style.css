@@ -1,18 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
-}
-
-.profile-img {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
+    background-color: #f5f9ff;
 }
 
 .card {
-    border: none;
     border-radius: 15px;
+    transition: 0.3s;
 }
 
-section {
-    scroll-margin-top: 80px;
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.text-primary {
+    color: #2563eb !important;
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
 }

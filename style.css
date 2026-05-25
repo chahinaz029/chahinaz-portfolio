@@ -24,3 +24,17 @@ section {
 .project {
     margin-top: 15px;
 }
+#competences {
+    margin-top: 40px;
+}
+
+.skill-category {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.skill-category h3 {
+    color: #2c3e50;
+}
